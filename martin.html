@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <link href="martinlifestyle.css" rel="stylesheet" type="text/css">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <title>
+            My Project
+        </title>
+    <script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="jQueryAssets/jquery-ui-effects.custom.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+function MM_DW_effectSlide(obj,method,effect,direction,distance,speed)
+{
+    obj[method](effect, { direction: direction, distance: distance}, speed);
+}
+    </script>
+    </head>
+    <body>
+        <div id="outercontainer">
+            <div id="navgationbar">
+                <div id= "logoholder">
+                <img id="logo"
+                src="logo-white.jpg"
+                alt="logo"
+                />
+                </div>
+              
+            <a href="https://www.monstercat.com/"><img id="mc" src="monstercat-logo.jpg" onmouseover="this.src='monstercat-logo-hover.jpg'" onmouseout="this.src='monstercat-logo.jpg'" /></a>
+            <a href="https://www.youtube.com/user/AllTrapNation"><img id="tn" src="trapnation-logo.jpg" onmouseover="this.src='trapnation-logo-hover.jpg'" onmouseout="this.src='trapnation-logo.jpg'" /></a>
+            <a href="http://www.revealedrecordings.com/"><img id="rv" src="revlealed-logo.jpg" onmouseover="this.src='revlealed-logo-hover.jpg'" onmouseout="this.src='revlealed-logo.jpg'" /></a>
+            <a href="https://www.spinninrecords.com/"><img id="sp" src="sp-logo.jpg" onmouseover="this.src='sp-logo-hover.jpg'" onmouseout="this.src='sp-logo.jpg'" /></a>
+
+            <a href="project.html" class ="navigationbuttoms">Home</a>
+            <a href="news.html" class ="navigationbuttoms">News</a>
+
+            <div id="martin" class="navigationbuttoms">Martin
+                <ul>
+                    <li><a href="martin.html" class ="navigationbuttoms">Intro to Martin Garrix</a></li>
+                    <li><a href="martinlifestyle.html" class ="navigationbuttoms">LifeStyle</a></li>
+                    <li><a href="http://www.martingarrix.com" class ="navigationbuttoms">Connect to Him</a></li>
+                </ul>            
+            </div>
+            <div id="Avicii" class="navigationbuttoms">Avicii
+                <ul>
+                    <li><a href="avicii.html" class ="navigationbuttoms">Intro to Avicii</a></li>
+                    <li><a href="aviciilifestyle.html" class ="navigationbuttoms">LifeStyle</a></li>
+                    <li><a href="http://www.avicii.com/" class ="navigationbuttoms">Connect to Him</a></li>
+                </ul> 
+            </div>
+            <div id="Zedd" class="navigationbuttoms">Hardwell
+                <ul>
+                    <li><a href="zedd.html" class ="navigationbuttoms">Intro to Hardwell</a></li>
+                    <li><a href="zeddlifestyle.html" class ="navigationbuttoms">LifeStyle</a></li>
+                    <li><a href="https://www.djhardwell.com/" class ="navigationbuttoms">Connect to Him</a></li>
+                </ul> 
+            </div>
+            <br style="clear:both;"/>
+            </div> <!--close nav-->
+            <br style="clear:both;"/>
+            <div class = "artistcontent">
+                <div id= "topimagediv">
+                    <img id ="topimage" src = "martintopimage.jpg"/>
+                </div><!--close topimagediv-->         
+                <div id = "artistinformation">
+                    <div id = "artistname">Martin Garrix</div>
+
+                    <div id ="text">
+                        Martijn Garritsen (born 14 May 1996), commonly known by his stage name Martin Garrix, is a Dutch DJ, composer, musician and record producer. He is best known for the track "Animals", which was a top 10 hit in more than 10 countries; the song has peaked at number 1 in Belgium and the United Kingdom, and number 3 in Ireland. His single "Wizard", produced with Jay Hardway, was successful in numerous countries in 2014. Debuting at number 40 of DJ Magazine‍ '​s Top 100 DJs, he is currently ranked number 3, below Dimitri Vegas  Like Mike and Hardwell.
+                    </div>
+                    <div id = "artistname">Hot Tracks</div>
+                    <div id = "click">Click to Listen</div>
+                    <div class ="hottrack">
+                        Don't Look Down
+                        <a href="https://soundcloud.com/martingarrix"><img id="martinwork1" class="track"src="martinwork1.jpg"/></a></div>
+
+                    <div class ="hottrack">
+                        Poison
+                        <a href="https://soundcloud.com/martingarrix"><img id="martinwork2" class="track" src="martinwork2.jpg"/></a></div>
+
+                    <div class ="hottrack">
+                        Forbidden Voices
+                        <a href="https://soundcloud.com/martingarrix"><img id="martinwork3" class="track" src="martinwork3.jpg"/></a></div>
+
+                    <div class ="hottrack">
+                        Break Through The Slience
+                        <a href="https://soundcloud.com/martingarrix"><img id="martinwork4" class="track"src="martinwork4.jpg"/></a></div>
+
+                     <div class ="hottrack">
+                        Virus
+                        <a href="https://soundcloud.com/martingarrix"><img id="martinwork5" class="track" src="martinwork5.jpg"/></a></div>
+
+                    <div class ="hottrack">
+                        Helicopter
+                        <a href="https://soundcloud.com/martingarrix"><img id="martinwork6" class="track" src="martinwork6.jpg"/></a></div>
+                    <br style="clear:both;"/>
+
+                    <div id = "artistname">Do you know his logo?</div>
+                    <div id = "hislogo">
+                        <img id="logogo" src = "martinlogo.jpg"/>
+                    </div>
+                    <div id = "click" onClick="MM_DW_effectSlide($('#hislogo'),'show','slide','up',100,1000)">Show!</div>
+                    <div id = "video">
+                  <iframe width="746" height="420" src="https://www.youtube.com/embed/E2Y-9U3QUxQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div id = "ultra" onClick="MM_DW_effectSlide($('#video'),'toggle','slide','left',100,1000)">Show Martin at Ultra!</div>
+                </div><!--close arristinformation-->
+            </div> <!--close artistscontent--> 
+
+    </div> <!--close outercontainer-->   
+    </body>
+    
+    
+</html>

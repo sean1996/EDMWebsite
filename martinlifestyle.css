@@ -1,0 +1,479 @@
+            #outercontainer{
+                font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+                width:100%;
+            }
+            #navgationbar{
+                position: fixed;
+                margin-top: 0px;
+                width: 100%;
+                background-color: white;
+                height: 50px;
+                top:0px;
+                left: 0px;
+                bottom: 0px;
+                z-index: 10;
+            }
+            #logoholder{
+                height: 50px;
+                float: left;
+                margin-right: 0px;
+            }
+            #logo{
+                height: 50px;
+            }
+            .navigationbuttoms{
+                width: 150px;
+                height: 50px;
+                float:  left;
+                text-align: center;
+                text-decoration: none;
+                font-size: 16pt;
+                line-height: 50px;
+                color: #F35F5F;
+                padding: 0;
+                margin: 0;
+                position: relative;
+            
+            }
+            .navigationbuttoms li{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+            }
+            .navigationbuttoms li a{
+            width: 150px;
+            height: 50px;
+            display: block;
+            text-decoration:none;
+            font-size: 14px;
+            color: white;
+            text-align: center;
+            line-height: 50px;
+
+            }
+            #zedd:hover ul{
+                visibility: visible;
+            }
+            #Avicii:hover ul{
+                visibility: visible;
+            }
+            #martin:hover ul{
+                visibility: visible;
+            }
+
+            .navigationbuttoms ul{
+                position: absolute;
+                padding: 0;
+                margin-top: 0px;
+                visibility: hidden;
+                background-color: #F35F5F;
+
+            }
+
+            .navigationbuttoms:hover{
+                color: #0099FF;
+            }
+            .navigationartists{
+                min-width: 150px;
+                height: 50px;
+                float: left;
+                text-align: center;
+                font-family: trebuchet ms;
+                font-weight: bold;
+                font-size: 16pt;
+                line-height: 50px;
+                color: #5D697A;
+            }
+            #sp{
+                width: 50px;
+                height: 50px;
+                float:  right;
+                margin-left: 0px;
+            }
+            #tn{
+                width: 50px;
+                height: 50px;
+                float:  right;
+                margin-left: 28px;
+            }
+            #mc{
+                display: block;
+                width: 50px;
+                height: 50px;
+                float:  right;
+                margin-left: 19px;
+                margin-right: 5px; 
+            }
+            
+            #rv{
+                width: 50px;
+                height: 50px;
+                float:  right;
+                margin-left: 30px;    
+            }
+            .aviciiholder{
+                min-width: 100px;
+                height: 50px;
+                float: left;
+                text-align: center;
+                font-family: trebuchet ms;
+                font-weight: bold;
+                font-size: 16pt;
+                line-height: 50px;
+                color: #5D697A;
+            }
+             .aviciiholder:hover{
+                color: white;
+             }
+            .avicii{
+                height: 50px;
+                float: left;
+                margin-left: 30px;
+                margin-right: 30px;
+                opacity: 1;
+            }
+            .avicii:hover{
+                opacity: 0.5;
+                
+            }
+            #contentholder{
+                margin-top: 100px;
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%; 
+                background-color: white;
+            }
+            #artistholder{
+                width: 100%;
+                text-align: center;
+                font-family: trebuchet ms;
+                font-size: 25pt;
+            }
+            #aviciipic{
+                width: 24%;
+                margin: 3%;
+                float: left;
+                background-color: red;
+            }
+            #zeddpic{
+                width: 24%;
+                margin: 3%;
+                float: left;
+                background-color: red;
+            }
+            #allesopic{
+                width: 24%;
+                margin: 3%;
+                float: left;
+                background-color: red;
+
+            }
+            .artistpic{
+                width: 100%;
+            }
+            #pictures{
+                position: absolute;
+                margin-top: 50px;
+                width: 80%;
+                margin-left: 10%;
+            }
+            #contentholder{
+                position: absolute;
+                margin-top: 50px;
+                width: 80%;
+                margin-left: 10%;
+            }
+            .lifepicture{
+                width: 300px;
+                height: 300px;
+                float: left;
+                margin: 16px;
+            }
+            .martinlifepic{
+                border-radius: 200px;
+                width: 300px;
+                height: 300px;
+            }
+
+            #reddit{
+                position: absolute;
+                margin-top: 50px;
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+
+            }
+
+            .artistcontent{
+                position: absolute;
+                margin-top: 20px;
+                width: 100%;
+            }
+            #topimagediv{
+                width: 100%;
+            }
+            #topimage{
+                width: 100%;
+            }
+            #artistinformation{
+                width: 80%;
+                margin-left: 10%;
+                margin-top: 20px;
+            }
+            #artistname{
+                margin-top: 30px;
+                text-align: center;
+                width: 100%;
+                font-size: 25pt;
+                color: #2D4059;
+            }
+            #text{
+                text-align: center;
+                margin-top: 30px;
+                margin-bottom: 30px;
+            }
+            .hottrack{
+                text-align: center;
+                width: 29.3%;
+                height: 29.3%;
+                float: left;
+                margin: 2%;
+                color:#F35F5F;
+            }
+            .track{
+                width: 280px;
+                height: 280px;
+            }
+            #click{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 10pt;
+                color:#F35F5F;
+            }
+            #technology{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 13pt;
+            }
+            #me{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 15pt;
+                color:#F35F5F;
+            }
+            #ultra{
+                margin-top: 10px;
+                margin-bottom: 30px;
+                text-align: center;
+                font-size: 10pt;
+                color:#F35F5F;
+            }
+            #hislogo{
+                margin-top: 30px;
+                margin: auto;
+                width: 350px;
+                height: 350px;
+                display: none;
+            }
+            #logogo{
+                width: 350px;
+            }
+            #video{
+                display: none;
+                width: 80%;
+                margin-left: 10%;
+                margin-right: 10%;
+            }
+
+
+            .connected-carousels .stage {
+                width: 1000px;
+                margin: 20px auto;
+                position: relative;
+            }
+
+            .connected-carousels .photo-credits {
+                position: absolute;
+                right: 15px;
+                bottom: 0;
+                font-size: 13px;
+                color: #fff;
+                text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+                opacity: .66;
+            }
+
+            .connected-carousels .photo-credits a {
+                color: #fff;
+            }
+
+            /** Navigation container **/
+
+            .connected-carousels .navigation {
+                width: 260px;
+                margin: 20px auto;
+                position: relative;
+            }
+
+            /** Shared carousel styles **/
+
+            .connected-carousels .carousel {
+                overflow: hidden;
+                position: relative;
+            }
+
+            .connected-carousels .carousel ul {
+                width: 20000em;
+                position: relative;
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+
+            .connected-carousels .carousel li {
+                float: left;
+            }
+
+            /** Stage carousel specific styles **/
+
+            .connected-carousels .carousel-stage {
+                height: 500;
+                border: 10px solid #fff;
+                -webkit-border-radius: 5px;
+                   -moz-border-radius: 5px;
+                        border-radius: 5px;
+                -webkit-box-shadow: 0 0 2px #999;
+                   -moz-box-shadow: 0 0 2px #999;
+                        box-shadow: 0 0 2px #999;
+            }
+
+            /** Navigation carousel specific styles **/
+
+            .connected-carousels .carousel-navigation {
+                height: 60px;
+                width: 240px;
+                background: #fff;
+                border: 10px solid #fff;
+                -webkit-border-radius: 5px;
+                   -moz-border-radius: 5px;
+                        border-radius: 5px;
+                -webkit-box-shadow: 0 0 2px #999;
+                   -moz-box-shadow: 0 0 2px #999;
+                        box-shadow: 0 0 2px #999;
+            }
+
+            .connected-carousels .carousel-navigation li {
+                cursor: pointer;
+            }
+
+            .connected-carousels .carousel-navigation li img {
+                display: block;
+                border: 5px solid #fff;
+            }
+
+            .connected-carousels .carousel-navigation li.active img {
+                border-color: #ccc;
+            }
+
+            /** Stage carousel controls **/
+
+            .connected-carousels .prev-stage,
+            .connected-carousels .next-stage {
+                display: block;
+                position: absolute;
+                top: 0;
+                width: 305px;
+                height: 410px;
+                color: #fff;
+            }
+
+            .connected-carousels .prev-stage {
+                left: 0;
+            }
+
+            .connected-carousels .next-stage {
+                right: 0;
+            }
+
+            .connected-carousels .prev-stage.inactive,
+            .connected-carousels .next-stage.inactive {
+                display: none;
+            }
+
+            .connected-carousels .prev-stage span,
+            .connected-carousels .next-stage span {
+                display: none;
+                position: absolute;
+                top: 50%;
+                width: 30px;
+                height: 30px;
+                text-align: center;
+                background: #4E443C;
+                color: #fff;
+                text-decoration: none;
+                text-shadow: 0 0 1px #000;
+                font: 24px/27px Arial, sans-serif;
+                -webkit-border-radius: 30px;
+                   -moz-border-radius: 30px;
+                        border-radius: 30px;
+                -webkit-box-shadow: 0 0 2px #999;
+                   -moz-box-shadow: 0 0 2px #999;
+                        box-shadow: 0 0 2px #999;
+            }
+
+            .connected-carousels .prev-stage span {
+                left: 20px;
+            }
+
+            .connected-carousels .next-stage span {
+                right: 20px;
+            }
+
+            .connected-carousels .prev-stage:hover span,
+            .connected-carousels .next-stage:hover span {
+                display: block;
+            }
+
+            /** Navigation carousel controls **/
+
+            .connected-carousels .prev-navigation,
+            .connected-carousels .next-navigation {
+                display: block;
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                background: #4E443C;
+                color: #fff;
+                text-decoration: none;
+                text-shadow: 0 0 1px #000;
+                font: 16px/29px Arial, sans-serif;
+                -webkit-border-radius: 30px;
+                   -moz-border-radius: 30px;
+                        border-radius: 30px;
+                -webkit-box-shadow: 0 0 2px #999;
+                   -moz-box-shadow: 0 0 2px #999;
+                        box-shadow: 0 0 2px #999;
+            }
+
+            .connected-carousels .prev-navigation {
+                left: -15px;
+                top: 22px;
+                text-indent: 6px;
+            }
+
+            .connected-carousels .next-navigation {
+                right: -15px;
+                top: 22px;
+                text-indent: 20px;
+            }
+
+            .connected-carousels .prev-navigation.inactive,
+            .connected-carousels .next-navigation.inactive {
+                opacity: .5;
+                cursor: default;
+            }
+
+
+              
